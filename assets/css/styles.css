@@ -90,7 +90,7 @@ main.container {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1rem;
-    background: #fff;
+    background: #f7f4f4;
 }
 
 .card h3 {
@@ -110,7 +110,8 @@ main.container {
     padding: .2rem .5rem;
     border: 1px solid var(--border);
     border-radius: 999px;
-    color: var(--muted);
+    color: #eef3ff;
+    background-color: #222831;
 }
 
 .card a {
