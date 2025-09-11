@@ -179,3 +179,18 @@ main.container {
     margin-bottom: .75rem; /* space between image and text */
     display: block;
     }
+
+    .card-img-small {
+    width: 70%; /* fills the card’s width */
+    height: auto; /* keeps aspect ratio */
+    border-radius: var(--radius) var(--radius) 0 0; /* round top corners */
+    margin-bottom: .75rem; /* space between image and text */
+    display: block;
+    }
+
+    .grid-img {
+  display: block;
+  margin: 1rem auto; /* centers them horizontally with spacing */
+  max-width: 100%;   /* responsive */
+  height: auto;
+}
