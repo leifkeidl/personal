@@ -1,10 +1,10 @@
 :root {
-    --bg: #ffffff;
-    --text: #222;
+    --bg: #f2fafd;
+    --text: #1A1A1A;
     --muted: #5b5b5b;
-    --primary: #1f4b99;
+    --primary: #F5F7FA;
     /* academic/professional blue */
-    --accent: #0d6efd;
+    --accent: #008080;
     /* links & focus */
     --border: #e6e6e6;
     --radius: 12px;
@@ -32,7 +32,7 @@ body {
 
 .site-header {
     border-bottom: 1px solid var(--border);
-    background: #fafafa;
+    background: #0A192F;
 }
 
 .nav {
@@ -57,7 +57,7 @@ body {
 
 .top-nav a {
     text-decoration: none;
-    color: var(--text);
+    color: #FFFFFF;
     padding: .4rem .6rem;
     border-radius: 8px;
 }
@@ -74,7 +74,7 @@ main.container {
 
 .site-footer {
     border-top: 1px solid var(--border);
-    background: #fafafa;
+    background: #0A192F;
     padding: .75rem 0;
     color: var(--muted);
 }
@@ -90,8 +90,10 @@ main.container {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1rem;
-    background: #f7f4f4;
+    background: #008C95;
+    color: #ffffff;
 }
+
 
 .card h3 {
     margin: 0 0 .5rem;
@@ -115,7 +117,7 @@ main.container {
 }
 
 .card a {
-    color: var(--accent);
+    color: #303847;
     text-decoration: none;
 }
 
